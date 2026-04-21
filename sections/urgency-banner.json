@@ -1,0 +1,58 @@
+{
+  "name": "Urgency Banner",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Announcement Text",
+      "default": "New designs drop every day at 12 AM"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Additional Text",
+      "default": "Be the first to get the latest designs by following us on social media"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Latest"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "placeholder": "shopify://collections/new-arrivals"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFF0F5"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button Background Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Urgency Banner"
+    }
+  ]
+}

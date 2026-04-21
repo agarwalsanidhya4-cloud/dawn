@@ -1,0 +1,99 @@
+{
+  "name": "Testimonials",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "What Our Customers Say"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "columns_desktop",
+      "label": "Columns on Desktop",
+      "options": [
+        {
+          "value": "2",
+          "label": "2 columns"
+        },
+        {
+          "value": "3",
+          "label": "3 columns"
+        }
+      ],
+      "default": "3"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Testimonial",
+      "type": "testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "customer_image",
+          "label": "Customer Image"
+        },
+        {
+          "type": "text",
+          "id": "customer_name",
+          "label": "Customer Name"
+        },
+        {
+          "type": "textarea",
+          "id": "review_text",
+          "label": "Review Text"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "unit": "star",
+          "label": "Star Rating",
+          "default": 5
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "testimonial",
+        "settings": {
+          "customer_name": "Priya Sharma",
+          "review_text": "The fit is absolutely perfect! I was so worried about online sizing, but their customization process made it so easy. I'm ordering again!",
+          "rating": 5
+        }
+      },
+      {
+        "type": "testimonial",
+        "settings": {
+          "customer_name": "Anjali Mishra",
+          "review_text": "Beautiful quality and the kurti arrived in perfect condition. The fabric is so comfortable and the stitching is excellent. Highly recommend!",
+          "rating": 5
+        }
+      },
+      {
+        "type": "testimonial",
+        "settings": {
+          "customer_name": "Sneha Patel",
+          "review_text": "Best purchase ever! The colors are exactly as shown, the fit is perfect, and the customer service is amazing. Will definitely buy more!",
+          "rating": 5
+        }
+      }
+    ]
+  },
+  "presets": [
+    {
+      "name": "Testimonials"
+    }
+  ]
+}

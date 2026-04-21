@@ -1,0 +1,77 @@
+{
+  "name": "Trust Bar",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Why customers love us"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Benefit Item",
+      "type": "benefit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "benefit",
+        "settings": {
+          "title": "Free Delivery",
+          "description": "On all orders above ₹499"
+        }
+      },
+      {
+        "type": "benefit",
+        "settings": {
+          "title": "Cash on Delivery",
+          "description": "Pay when you receive"
+        }
+      },
+      {
+        "type": "benefit",
+        "settings": {
+          "title": "Easy Returns",
+          "description": "30-day return policy"
+        }
+      },
+      {
+        "type": "benefit",
+        "settings": {
+          "title": "Perfect Fit",
+          "description": "Customized for your body"
+        }
+      }
+    ]
+  },
+  "presets": [
+    {
+      "name": "Trust Bar"
+    }
+  ]
+}

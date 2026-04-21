@@ -1,0 +1,95 @@
+{
+  "name": "Steps Section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Our Customization Process"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Section Description",
+      "default": "Design your perfect kurti in 3 simple steps"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f9f7f4"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Start Customizing"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Step",
+      "type": "step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "step_number",
+          "label": "Step Number"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Step Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Step Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Step Icon"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "step",
+        "settings": {
+          "step_number": "1",
+          "title": "Choose Fabric",
+          "description": "Select from premium cotton, silk, and blended fabrics"
+        }
+      },
+      {
+        "type": "step",
+        "settings": {
+          "step_number": "2",
+          "title": "Choose Design",
+          "description": "Pick from our curated designs or create your own"
+        }
+      },
+      {
+        "type": "step",
+        "settings": {
+          "step_number": "3",
+          "title": "Choose Size",
+          "description": "Get perfect fit with our size guide and measurements"
+        }
+      }
+    ]
+  },
+  "presets": [
+    {
+      "name": "Steps Section"
+    }
+  ]
+}
